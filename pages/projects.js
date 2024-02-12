@@ -42,7 +42,7 @@ export async function getServerSideProps() {
           Accept: 'application/json',
           'Notion-Version': '2022-06-28',
           'Content-Type': 'application/json',
-          Authorization: `Bearer ${TOKEN}`
+          'Authorization': `Bearer ${TOKEN}`
         },
         body: JSON.stringify({
             sorts: [
