@@ -6,7 +6,9 @@ const nextConfig = {
           'www.notion.so',
           'images.unsplash.com',
           's3.us-west-2.amazonaws.com',
-          'www.google.com'
+          'www.google.com',
+          'www.helpx.adobe.com',
+          'www.hoochootong.com'
       ],
       format: ['image/png', 'image/webp', 'image/jpeg']
   }

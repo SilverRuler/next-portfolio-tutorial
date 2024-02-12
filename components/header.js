@@ -27,7 +27,7 @@ export default function Header(){
                             <a className="mr-5 hover:text-gray-900">Thesis</a>
                         </Link>
 
-                        <a href="https://open.kakao.com/o/silverruler" className="mr-5 hover:text-gray-900">Contact</a>
+                        <a href="https://open.kakao.com/me/silverruler" className="mr-5 hover:text-gray-900">Contact</a>
 
                     </nav>
                     {/* 다크모드 토글 버튼 작업해야함 */}

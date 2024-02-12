@@ -5,11 +5,12 @@ import Image from "next/image";
 export default function ProjectItem({data}){
 
     const title = data.properties.Name?.title[0].plain_text
-    const github = data.properties.Github?.url
+    //const github = data.properties.Github?.url
+    const github = "https://github.com/SilverRuler/N-WPA2---Security_Improvement_Technique_of_WPA2_through_NFT-Based_Authentication"
     const youtube = data.properties.Youtube.url
     const description = data.properties.Description.rich_text[0]?.plain_text
     //const imgSrc = data.cover?.file?.url || data.cover?.external.url
-    const imgSrc = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fkr.freepik.com%2Fphotos%2F%25EA%25B0%2595%25EC%2595%2584%25EC%25A7%2580&psig=AOvVaw02aLm934n1nlj-38NM6frd&ust=1707821600252000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCMjOrK_RpYQDFQAAAAAdAAAAABAE"
+    const imgSrc = "https://www.hoochootong.com/img/201508/02GPJ01643_1.jpg"
     const tags = data.properties.Tags?.multi_select
     const start = data.properties.WorkPeriod.date?.start
     const end = data.properties.WorkPeriod.date?.end
